@@ -1,0 +1,31 @@
+// Here you can add other styles
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px $gray-700 inset;
+  -webkit-text-fill-color: $body-color;
+}
+
+// _forms.scss
+.form-control {
+  outline: 0;
+  border-radius: 0;
+  border-width: 0 0 2px;
+  border-bottom-color: theme-color("secondary");
+  
+  -webkit-transition: all ease .2s;
+  -o-transition: all ease .2s;
+  transition: all ease .2s;
+
+  &:focus {
+    border-bottom-color: theme-color("primary");
+  }
+
+}
