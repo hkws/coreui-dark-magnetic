@@ -66,9 +66,30 @@ $sidebar-minimizer-hover-indicator-color:$sidebar-nav-link-hover-color !default;
 $aside-menu-color:                    $gray-600 !default;
 $aside-menu-bg:                       $gray-900 !default;
 
+// Breadcrumb
+$breadcrumb-borders: (
+  bottom: (
+    size:                             1px,
+    style:                            solid,
+    color:                            $gray-base
+  )
+) !default;
+
 // Cards
 $card-icon-bg:                        transparent !default;
 $card-icon-color:                     $body-color !default;
 
 // Cursor
 $cursor-disabled: default !default;
+
+// Footer
+$footer-height:                       50px !default;
+$footer-bg:                           $gray-base !default;
+$footer-color:                        $body-color !default;
+$footer-borders: (
+  top: (
+    size:                             1px,
+    style:                            solid,
+    color:                            $gray-base
+  )
+) !default;
